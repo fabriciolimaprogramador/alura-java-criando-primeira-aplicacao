@@ -36,6 +36,11 @@ public class Main{
             """.formatted("Fabricio", 52, 1.735);
     System.out.println(mensagem);
 
+
+    int classificacao;
+    classificacao  = (int) media / 2; //casting explicito
+    System.out.println(classificacao);
+
   }
 
 }
